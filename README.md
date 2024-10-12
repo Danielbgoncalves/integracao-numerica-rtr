@@ -14,7 +14,7 @@ onde h é o tamanho do subintervalo e x𝑖 são os pontos intermediários. A pr
 Para compilar use: `gcc -o rtr main.c -lm `
   - -lm pois estamos usando biblioteca matematica
 
-  Já para roda use `./rtr 0.5 1e-12` 
+  Já para roda use `./rtr -1.0 1.0 2000000` 
   - Primeiro primeiro parametro é o executável
   - O segundo e o terceiro são os limites da integração 
   - O ultimo é o número de subdivisões do intervalo, quanto maior, mais preciso é o cálculo

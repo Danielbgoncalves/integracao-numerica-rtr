@@ -1,11 +1,8 @@
 # Regra Dos Trapézios Repetidos 
 
 A regra dos trapézios repetidos aproxima a integral de uma função contínua dividindo o intervalo de integração em subintervalos iguais. Em cada subintervalo, a função é aproximada por um trapézio, 
-cuja área é calculada. A soma das áreas desses trapézios fornece a aproximação da integral. A fórmula é: 
-\[
-I \approx \frac{h}{2} \left[ f(a) + 2 \sum_{i=1}^{n-1} f(x_i) + f(b) \right]
-\]
-onde h é o tamanho do subintervalo e x𝑖 são os pontos intermediários. A precisão melhora com mais subintervalos.
+cuja área é calculada. A soma das áreas desses trapézios fornece a aproximação da integral. 
+A precisão melhora a cada subintervalo adicionado.
 
 # Como rodar
 
